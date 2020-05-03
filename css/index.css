@@ -480,3 +480,15 @@ label {
   -o-transition: opacity 0.4s ease-in-out;
   transition: opacity 0.4s ease-in-out;
 }
+#prev:hover,
+#next:hover {
+  opacity: 1;
+}
+#prev:active {
+  transform: translateY(2px);
+  box-shadow: inset 2px 2px #c3c3c3;
+}
+#next:active {
+  transform: translateY(2px);
+  box-shadow: inset -2px 2px #c3c3c3;
+}
