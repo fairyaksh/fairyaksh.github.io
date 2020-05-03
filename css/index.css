@@ -110,6 +110,7 @@ label {
   background-color: #f2f3f4;
   height: 500px;
   width: auto;
+  z-index: 0;
 }
 
 /* ------ INTRO TYPO ------ */
