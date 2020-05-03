@@ -29,3 +29,41 @@ function goToSlide(n) {
   currentSlide = (n + slides.length) % slides.length;
   slides[currentSlide].className = "slide showing";
 }
+
+/*---------- Play/Pause Button ----------*/
+
+var playing = true;
+var pauseButton = document.getElementById("pause");
+
+function pauseSlideshow() {
+  pauseButton.innerHTML = "&#9658;"; // play character
+  playing = false;
+  clearInterval(slideInterval);
+}
+
+function playSlideshow() {
+  pauseButton.innerHTML = "&#10074;&#10074;"; // pause character
+  playing = true;
+  slideInterval = setInterval(nextSlide, 4000);
+}
+
+pauseButton.onclick = function () {
+  if (playing) {
+    pauseSlideshow();
+  } else {
+    playSlideshow();
+  }
+};
+
+var next = document.getElementById("next");
+var prev = document.getElementById("prev");
+
+next.onclick = function () {
+  pauseSlideshow();
+  nextSlide();
+};
+prev.onclick = function () {
+  pauseSlideshow();
+  previousSlide();
+};
+
