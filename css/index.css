@@ -690,3 +690,30 @@ textarea {
 .fa-mug-hot {
   color: #7c5b43;
 }
+
+/* ------- RESPONSIVE FOOTER ------- */
+
+@media only screen and (max-width: 1154px) {
+  .footer a {
+    width: 100px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+  }
+@media only screen and (max-width: 1054px) {
+  .footer a {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+  }
+  .fab,
+  .fa-code {
+    margin: 0px 20px 0px 20px;
+    padding-right: 200px;
+  }
+  .thanks {
+    display: none;
+  }
+}
