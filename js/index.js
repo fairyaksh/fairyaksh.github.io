@@ -67,3 +67,18 @@ prev.onclick = function () {
   previousSlide();
 };
 
+/*---------- Keyboard controls ----------*/
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+  e = e || window.event;
+
+  if (e.keyCode === 37) {
+    // left arrow
+    previousSlide();
+  } else if (e.keyCode === 39) {
+    // right arrow
+    nextSlide();
+  }
+}
