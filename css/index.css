@@ -580,3 +580,68 @@ label {
 }
 @media only screen and (max-width: 434px) {
 }
+
+/* ---- CONTACT FORM ---- */
+
+.contact{
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+.fa-comment-dots {
+   font-size: 35px;
+}
+form {
+  max-width: 460px;
+  margin: 300px auto;
+  margin-left: 600px;
+}
+.feedback-input {
+  color: white;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #f2f3f4;
+  border: 2px solid #fcd5d5;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+.feedback-input:focus {
+  border: 2px solid #e1e3e7;
+}
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+[type="submit"] {
+  font-family: "Maven Pro", sans-serif;
+  letter-spacing: 0px;
+  width: 100%;
+  background: #fcd5d5;
+  color: #898b8f;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 900;
+  outline: none;
+}
+[type="submit"]:hover {
+  background: #e1e3e7;
+  color: #f69696;
+}
+.form {
+/*   background-color: black; */
+  border: 15px solid white;
+}
