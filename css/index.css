@@ -492,3 +492,23 @@ label {
   transform: translateY(2px);
   box-shadow: inset -2px 2px #c3c3c3;
 }
+
+/* ------- PLAY / PAUSE BUTTON -------*/
+
+#pause {
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  bottom: 325px;
+  right: 220px;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+
+  background-color: transparent;
+  font-size: 20px;
+  opacity: 1;
+  border: solid transparent;
+  border-radius: 50%;
+}
