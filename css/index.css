@@ -512,3 +512,38 @@ label {
   border: solid transparent;
   border-radius: 50%;
 }
+
+/* ------- RESPONSIVE CAROUSEL ------- */
+
+@media only screen and (max-width: 1000px) {
+  #carousel {
+    width: 95%;
+  }
+  #prev,
+  #next {
+    top: 90px;
+  }
+  #pause {
+    bottom: 325px;
+    right: 220px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  #slides {
+    width: 400px;
+  }
+  #prev,
+  #next {
+    top: 10px;
+  }
+  #prev {
+    right: 400px;
+  }
+  #next {
+    left: 230px;
+  }
+  #pause {
+    bottom: 375px;
+    right: 170px;
+  }
+}
