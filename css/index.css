@@ -2,3 +2,20 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+/* Custom Scrollbar properties */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+}
