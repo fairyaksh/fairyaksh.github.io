@@ -298,3 +298,35 @@ label {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 555px) {
+  .bg-intro h1 {
+    left: 90px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 495px) {
+  .bg-intro h1 {
+    left: 25px;
+    font-size: 40px;
+  }
+  .h3 {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .learnmorebtn {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    bottom: 280px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+  .h2 {
+    margin: 10px;
+  }
+}
