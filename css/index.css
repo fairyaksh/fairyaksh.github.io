@@ -330,3 +330,26 @@ label {
     margin: 10px;
   }
 }
+
+/* ------ MASONRY ------ */
+
+.masonry {
+  font-family: 'Noto Sans', sans-serif;
+  columns: 1;
+  column-gap: 200px;
+  width: 100%;
+  height: auto;
+}
+.masonry-item {
+  border: 2px solid pink;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.masonry-title {
+  text-align: center;
+}
