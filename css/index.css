@@ -151,3 +151,14 @@ label {
   text-transform: none;
   line-height: 130px;
 }
+
+/* ------ PIC  ------ */
+
+#me {
+  position: absolute;
+  right: 140px;
+  top: 60px;
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+}
