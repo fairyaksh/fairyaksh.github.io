@@ -547,3 +547,36 @@ label {
     right: 170px;
   }
 }
+@media only screen and (max-width: 576px) {
+  #prev,
+  #next {
+    top: 10px;
+  }
+  #prev {
+    right: 400px;
+  }
+  #next {
+    left: 230px;
+  }
+  #pause {
+    top: 176px;
+    right: 170px;
+  }
+}
+@media only screen and (max-width: 499px) {
+  #prev,
+  #next {
+    top: 10px;
+  }
+  #prev {
+    right: 400px;
+  }
+  #next {
+    left: 230px;
+  }
+  #pause {
+    /*     left: 300px; */
+  }
+}
+@media only screen and (max-width: 434px) {
+}
