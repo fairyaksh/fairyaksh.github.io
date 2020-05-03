@@ -98,3 +98,18 @@ label {
     display: block;
   }
 }
+
+/* ------ INTRO ------ */
+* {
+  overflow: wrap;
+}
+.bg-intro .row {
+  padding-top: 242px;
+  padding-bottom: 150px;
+  /*   height: 180px; */
+}
+.layer-intro {
+  background-color: #f2f3f4;
+  height: 500px;
+  width: auto;
+}
