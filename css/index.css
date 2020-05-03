@@ -3,19 +3,39 @@
   scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar properties */
+/* ----- Custom Scrollbar properties -----*/
 
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: white;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #cdcdcd;
+}
+
+/* ----- Navigation Menu ----- */
+.logo {
+  float: left;
+  margin-top: -25px;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #eaeaeb;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  background-color: #e5e7ec;
+  z-index: 3;
+}
+.menu {
+  margin: -70px auto;
+  padding: 0px;
+  word-spacing: 200px;
+  text-align: center;
 }
