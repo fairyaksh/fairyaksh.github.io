@@ -68,3 +68,6 @@ label {
   width: 26px;
   float: right;
 }
+#toggle {
+  display: none;
+}
