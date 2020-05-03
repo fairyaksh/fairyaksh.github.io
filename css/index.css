@@ -350,6 +350,8 @@ label {
   margin-left: 100px;
 }
 
+/* ------ MASONRY details ------ */
+
 .masonry-title {
   text-align: center;
 }
@@ -385,4 +387,17 @@ label {
   padding: 1.5rem;
   font-size: 0.75rem;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* ------ RESPONSIVE MASONRY ------ */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    columns: 1;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    columns: 2;
+  }
 }
