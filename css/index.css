@@ -645,3 +645,15 @@ textarea {
 /*   background-color: black; */
   border: 15px solid white;
 }
+
+/* ------- FOOTER -------- */
+
+/* footer fixed at bottom (not sticky) */
+.footer {
+  background-color: #e5e7ec;
+/*   border: 2px solid blue; */
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  overflow-y: hidden;
+}
