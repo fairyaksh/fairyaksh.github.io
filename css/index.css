@@ -673,3 +673,13 @@ textarea {
   transform: scale(1.2);
   transition: 0.5s;
 }
+/* made with love text in footer */
+.thanks {
+  line-height: 100px;
+  padding-right: 30px;
+  float: right;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 3px;
+}
