@@ -401,3 +401,45 @@ label {
     columns: 2;
   }
 }
+
+
+/* ------- CAROUSEL -------*/
+.carousel{
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+.fa-hand-point-down{
+  font-size: 35px;
+}
+#carousel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+#slides {
+  position: relative;
+  width: 500px;
+  height: 600px;
+/*   background-color: pink;
+  border: 20px solid green; */
+  margin: 100px 0px 0px 600px;
+}
+.slide {
+  width: 100%;
+  position: absolute;
+  border: 3px solid pink;
+  left: 0px;
+  top: 0px;
+  border-radius: 30px;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
