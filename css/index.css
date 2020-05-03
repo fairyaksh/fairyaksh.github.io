@@ -101,9 +101,6 @@ label {
 
 /* ------ INTRO ------ */
 
-* {
-  overflow: wrap;
-}
 .bg-intro .row {
   padding-top: 242px;
   padding-bottom: 150px;
