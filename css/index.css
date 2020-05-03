@@ -39,3 +39,11 @@
   word-spacing: 200px;
   text-align: center;
 }
+a {
+  clear: right;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: 'Poppins', sans-serif;
+}
