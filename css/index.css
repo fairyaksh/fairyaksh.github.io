@@ -201,3 +201,30 @@ label {
   /*linear-gradient(to left, #33ccff 0%, #ff99cc 100%);*/
   transform: translateY(4px);
 }
+
+/* ------ LAUNCH ICON PROPERTIES ------ */
+
+.learnmorebtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.learnmorebtn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.learnmorebtn:hover span {
+  padding-right: 10px;
+}
+
+.learnmorebtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
