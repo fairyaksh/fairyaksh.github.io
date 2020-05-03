@@ -47,3 +47,24 @@ a {
   line-height: 70px;
   font-family: 'Poppins', sans-serif;
 }
+
+/* ----- Nav menu hover ----- */
+
+.menu a:hover {
+	font-style: italic;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+.menu a:active {
+	font-size: 14px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
