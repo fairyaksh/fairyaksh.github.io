@@ -268,3 +268,33 @@ label {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 651px) {
+  .bg-intro h1 {
+    left: 200px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 619px) {
+  .bg-intro h1 {
+    left: 140px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bg-intro h1 {
+    left: 140px;
+  }
+  .learnmorebtn {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    bottom: 280px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+}
