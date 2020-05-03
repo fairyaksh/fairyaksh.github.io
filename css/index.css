@@ -239,3 +239,32 @@ label {
   border-top: 20px solid black;
   margin: 0 auto;
 }
+
+/* ------ RESPONSIVE INTRO ------ */
+
+@media screen and (max-width: 980px) {
+  #me {
+    display: none;
+  }
+  .bg-intro h1 {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-intro h1 {
+    top: 0px;
+  }
+  .bg-intro .row {
+    padding-top: 105px;
+    padding-bottom: 65px;
+  }
+  .learnmorebtn {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    bottom: 280px;
+  }
+  .h3 {
+    font-size: 15px;
+  }
+}
