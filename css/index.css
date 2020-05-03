@@ -71,3 +71,30 @@ label {
 #toggle {
   display: none;
 }
+
+/* ----- RESPONSIVE menu when < 1000px ----- */
+
+@media only screen and (max-width: 1000px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    width: 100%;
+    display: none;
+    background: #eaeaeb;
+  }
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  div a {
+    text-align: center;
+    display: block;
+    border: 1px solid #eaeaeb;
+    margin: 0;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
