@@ -657,6 +657,16 @@ textarea {
   border: 15px solid white;
 }
 
+/* ---- RESPONSIVE CONTACT FORM ---- */
+
+@media only screen and (max-width: 414px) {
+  form {
+    display: block;
+    margin: 0;
+    width: 370px;
+  }
+}
+
 /* ------- FOOTER -------- */
 
 /* footer fixed at bottom (not sticky) */
