@@ -585,6 +585,12 @@ label {
 }
 @media only screen and (max-width: 434px) {
 }
+@media only screen and (max-width: 414px) {
+  #slides {
+    display: block;
+    margin: 0;
+  }
+}
 
 /* ---- CONTACT FORM ---- */
 
