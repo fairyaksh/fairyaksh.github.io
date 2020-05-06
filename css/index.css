@@ -329,6 +329,13 @@ label {
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .learnmorebtn {
+    position: absolute;
+    left: 0px;
+  }
+}
+
 /* ------ MASONRY ------ */
 
 .masonry {
